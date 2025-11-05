@@ -1,10 +1,12 @@
 using UnityEngine;
 
-namespace ElmanGameDevTools.PlayerSystem
+namespace ElmanGameDevTools.FirstPersonControllerPro.Scripts.PlayerSystem
 {
     [AddComponentMenu("Elman Game Dev Tools/Player System/Player Controller")]
     public class PlayerController : MonoBehaviour
     {
+        private static readonly int Swing = Animator.StringToHash("Swing");
+
         [Header("REFERENCES")]
         [Tooltip("Reference to the Character Controller component")]
         public CharacterController controller;
@@ -203,7 +205,14 @@ namespace ElmanGameDevTools.PlayerSystem
 
             if (Input.GetButtonDown("Fire1") && IsEffectivelyGrounded())
             {
-                if (anim != null) anim.SetTrigger("Swing");
+                if (anim != null)
+                {
+                    Debug.Log("Swing Trigger Fired!");
+                    anim.SetTrigger(Swing);
+                }
+                else
+                {
+                    Debug.LogError("CANNOT SWING! The 'anim' variable in PlayerController is null!");                }
             }
         }
 

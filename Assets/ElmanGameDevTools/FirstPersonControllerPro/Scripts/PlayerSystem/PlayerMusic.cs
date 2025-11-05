@@ -1,7 +1,6 @@
 using UnityEngine;
-using ElmanGameDevTools.PlayerSystem;
 
-namespace ElmanGameDevTools.PlayerAudio
+namespace ElmanGameDevTools.FirstPersonControllerPro.Scripts.PlayerSystem
 {
     /// <summary>
     /// Handles player footstep sounds based on movement state and surface type

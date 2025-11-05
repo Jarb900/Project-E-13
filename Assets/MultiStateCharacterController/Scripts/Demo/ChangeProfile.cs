@@ -1,25 +1,27 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using MultiStateCharacterController.Scripts.Movement;
 using UnityEngine;
 
-public class ChangeProfile : MonoBehaviour
+namespace MultiStateCharacterController.Scripts.Demo
 {
-    //New Profile
-    public MSCCProfile profile;
-    //Character Controller
-    public MultistateCharacterController characterController;
-    //Key press that changes the profile
-    public KeyCode keyCode;
-    public bool _enabled = true;
-
-    // Update is called once per frame
-    void Update()
+    public class ChangeProfile : MonoBehaviour
     {
-        if (_enabled && Input.GetKey(keyCode))
+        //New Profile
+        public MSCCProfile profile;
+        //Character Controller
+        public MultistateCharacterController characterController;
+        //Key press that changes the profile
+        public KeyCode keyCode;
+        public bool _enabled = true;
+
+        // Update is called once per frame
+        void Update()
         {
-            _enabled = false;
-            //Changes the profile to the new profile
-            characterController.AttemptProfileChange(profile);
+            if (_enabled && Input.GetKey(keyCode))
+            {
+                _enabled = false;
+                //Changes the profile to the new profile
+                characterController.AttemptProfileChange(profile);
+            }
         }
     }
 }

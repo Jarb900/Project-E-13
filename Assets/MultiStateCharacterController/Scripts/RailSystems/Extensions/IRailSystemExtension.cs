@@ -1,10 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using MultiStateCharacterController.Scripts.Movement;
 
-public interface IRailSystemExtension
+namespace MultiStateCharacterController.Scripts.RailSystems.Extensions
 {
-     void OnLatch(MultistateCharacterController characterController);
-     void OnUnlatch(MultistateCharacterController characterController);
-     void OnKeyUnlatch(MultistateCharacterController characterController);
+     public interface IRailSystemExtension
+     {
+          void OnLatch(MultistateCharacterController characterController);
+          void OnUnlatch(MultistateCharacterController characterController);
+          void OnKeyUnlatch(MultistateCharacterController characterController);
+     }
 }

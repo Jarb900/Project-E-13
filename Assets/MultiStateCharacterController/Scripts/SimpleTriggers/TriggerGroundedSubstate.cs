@@ -1,22 +1,23 @@
-﻿
-using System.Collections;
-using System.Collections.Generic;
+﻿using MultiStateCharacterController.Scripts.Movement;
 using UnityEngine;
 
-public class TriggerGroundedSubstate : MonoBehaviour
+namespace MultiStateCharacterController.Scripts.SimpleTriggers
 {
-    [Tooltip("New player grounded substate")]
-    public GroundedMovementSubState groundedMovementSubState;
-    [Tooltip("Is this trigger disabled after its activation?")]
-    public bool disableOnTrigger = false;
-
-    //Sets a new grounded substate
-    private void OnTriggerEnter(Collider other)
+    public class TriggerGroundedSubstate : MonoBehaviour
     {
-        MultistateCharacterController player = other.transform.GetComponent<MultistateCharacterController>();
-        if (player != null)
+        [Tooltip("New player grounded substate")]
+        public GroundedMovementSubState groundedMovementSubState;
+        [Tooltip("Is this trigger disabled after its activation?")]
+        public bool disableOnTrigger = false;
+
+        //Sets a new grounded substate
+        private void OnTriggerEnter(Collider other)
         {
-            player.SetGroundedMovementSubstate(groundedMovementSubState);
+            MultistateCharacterController player = other.transform.GetComponent<MultistateCharacterController>();
+            if (player != null)
+            {
+                player.SetGroundedMovementSubstate(groundedMovementSubState);
+            }
         }
     }
 }

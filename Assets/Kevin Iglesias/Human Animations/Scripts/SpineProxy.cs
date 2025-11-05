@@ -11,7 +11,7 @@
 
 using UnityEngine;
 
-namespace KevinIglesias
+namespace Kevin_Iglesias.Human_Animations.Scripts
 {
     public class SpineProxy : MonoBehaviour
     {

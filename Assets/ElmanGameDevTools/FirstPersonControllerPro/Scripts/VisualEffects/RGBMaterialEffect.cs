@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ElmanGameDevTools.VisualEffects
+namespace ElmanGameDevTools.FirstPersonControllerPro.Scripts.VisualEffects
 {
     /// <summary>
     /// Creates dynamic RGB color effects on materials with various animation modes

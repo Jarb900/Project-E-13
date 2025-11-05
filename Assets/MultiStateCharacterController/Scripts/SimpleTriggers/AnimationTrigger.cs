@@ -1,21 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using MultiStateCharacterController.Scripts.Movement;
 using UnityEngine;
 
-public class AnimationTrigger : MonoBehaviour
+namespace MultiStateCharacterController.Scripts.SimpleTriggers
 {
-    [Tooltip("The animator trigger parameter to be set")]
-    public string triggerName = "Ani Trigger";
-
-    //Sets the animator trigger
-    private void OnTriggerEnter(Collider other)
+    public class AnimationTrigger : MonoBehaviour
     {
-        MultistateCharacterController player = other.transform.GetComponent<MultistateCharacterController>();
-        if (player != null)
+        [Tooltip("The animator trigger parameter to be set")]
+        public string triggerName = "Ani Trigger";
+
+        //Sets the animator trigger
+        private void OnTriggerEnter(Collider other)
         {
-            player.localReferences.animator.SetTrigger(triggerName);
-            gameObject.SetActive(false);
+            MultistateCharacterController player = other.transform.GetComponent<MultistateCharacterController>();
+            if (player != null)
+            {
+                player.localReferences.animator.SetTrigger(triggerName);
+                gameObject.SetActive(false);
+            }
         }
     }
 }

@@ -1,8 +1,8 @@
-﻿
-using System.Collections;
-using System.Collections.Generic;
+﻿using MultiStateCharacterController.Scripts.Movement;
 using UnityEngine;
 
+namespace MultiStateCharacterController.Scripts.Animation
+{
     public class AnimationEventHandler : MonoBehaviour
     {
         [Tooltip("MultistateCharacterController script located on the project player gameobject")]
@@ -38,16 +38,16 @@ using UnityEngine;
 
         }
 
-    void OnAnimatorMove()
-    {
-        if (characterController)
+        void OnAnimatorMove()
         {
-            characterController.UpdateRootMotionAnimatorVelocity(GetComponent<Animator>().deltaPosition.magnitude / Time.deltaTime);
+            if (characterController)
+            {
+                characterController.UpdateRootMotionAnimatorVelocity(GetComponent<Animator>().deltaPosition.magnitude / Time.deltaTime);
+            }
         }
-    }
 
-    //Passes IK functionality to the MSCC
-    private void OnAnimatorIK(int layerIndex)
+        //Passes IK functionality to the MSCC
+        private void OnAnimatorIK(int layerIndex)
         {
             if(characterController)
             {
@@ -55,3 +55,4 @@ using UnityEngine;
             }
         }
     }
+}

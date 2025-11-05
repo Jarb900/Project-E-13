@@ -1,36 +1,39 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using MultiStateCharacterController.Scripts.Movement;
 using UnityEngine;
 
-public class MovementStateActivator : MonoBehaviour
+namespace MultiStateCharacterController.Scripts.Demo
 {
-    [Tooltip("Particle systems that are toggled based on player flight")]
-    public List<ParticleSystem> particleSystems = new List<ParticleSystem>();
-    [Tooltip("Gameobject that is toggled based on player flight")]
-    public GameObject onScreen;
-    [Tooltip("Gameobject that is toggled based on player flight")]
-    public GameObject offScreen;
-
-    //Toggles the particle system's and gameobjects player on the player's movement state. This is called by an MSCC event by default
-    public void ToggleActivation(MovementState movementState)
+    public class MovementStateActivator : MonoBehaviour
     {
-        if (movementState == MovementState.flying)
+        [Tooltip("Particle systems that are toggled based on player flight")]
+        public List<ParticleSystem> particleSystems = new List<ParticleSystem>();
+        [Tooltip("Gameobject that is toggled based on player flight")]
+        public GameObject onScreen;
+        [Tooltip("Gameobject that is toggled based on player flight")]
+        public GameObject offScreen;
+
+        //Toggles the particle system's and gameobjects player on the player's movement state. This is called by an MSCC event by default
+        public void ToggleActivation(MovementState movementState)
         {
-            foreach (ParticleSystem particleSystem in particleSystems)
+            if (movementState == MovementState.flying)
             {
+                foreach (ParticleSystem particleSystem in particleSystems)
+                {
                     particleSystem.Play();
+                }
+                onScreen.SetActive(true);
+                offScreen.SetActive(false);
             }
-            onScreen.SetActive(true);
-            offScreen.SetActive(false);
-        }
-        else
-        {
-            foreach (ParticleSystem particleSystem in particleSystems)
+            else
             {
+                foreach (ParticleSystem particleSystem in particleSystems)
+                {
                     particleSystem.Stop();
+                }
+                onScreen.SetActive(false);
+                offScreen.SetActive(true);
             }
-            onScreen.SetActive(false);
-            offScreen.SetActive(true);
         }
     }
 }
