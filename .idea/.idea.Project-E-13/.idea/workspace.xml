@@ -4,7 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cd135d3-3a42-4a14-8c0b-017c580e2f1a" name="Changes" comment="" />
+    <list default="true" id="5cd135d3-3a42-4a14-8c0b-017c580e2f1a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-E-13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-E-13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials/RGB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials/RGB.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Fonts/Digits.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Fonts/Digits.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Fonts/DigitsFonts.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Fonts/DigitsFonts.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-doormetal-urp.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-doormetal-urp.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-pillarMaterial-urp.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-pillarMaterial-urp.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-wallm-urp.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-wallm-urp.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/keypad_buttonMaterial_urp.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/keypad_buttonMaterial_urp.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/keypad_panelmaterial_urp.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/keypad_panelmaterial_urp.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Prefabs/Keypad.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Prefabs/Keypad.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/Keypad.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/Keypad.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/KeypadButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/KeypadButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/KeypadInteractionFPV.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/KeypadInteractionFPV.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadClick.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadClick.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadDeniedd.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadDeniedd.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadGranted.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadGranted.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_albedoo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_albedoo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_emissive2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_emissive2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_normale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_normale.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Animations/Fall.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Animations/Fall.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerInteraction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,32 +65,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ItemData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerInventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/SafeInteract.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@1f4d88678591/Runtime/Debugging/DebugUI.Fields.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="353erk1uHaMzcF4oInrw0aGbGgi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Standalone Player.Start Unity">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\Unity Hub\Editor\6000.2.10f1\Editor\Unity.exe" />
@@ -105,6 +155,8 @@
       <option name="presentableId" value="Default" />
       <updated>1762343387008</updated>
       <workItem from="1762343387450" duration="12308000" />
+      <workItem from="1762972171710" duration="983000" />
+      <workItem from="1763488457844" duration="2708000" />
     </task>
     <servers />
   </component>

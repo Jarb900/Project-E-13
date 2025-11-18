@@ -1,3 +1,4 @@
+using ElmanGameDevTools.FirstPersonControllerPro.Scripts.PlayerSystem;
 using UnityEngine;
 
 namespace Main.Scripts
@@ -35,6 +36,13 @@ namespace Main.Scripts
             {
                 // Tell the pickup to add itself to our inventory
                 pickup.Pickup(inventory);
+                return;
+            }
+            SafeInteract safe = hit.collider.GetComponent<SafeInteract>();
+            if (safe != null)
+            {
+                // We pass the PlayerController so the safe can disable it
+                safe.ShowKeypad(GetComponent<PlayerController>());
                 return;
             }
 

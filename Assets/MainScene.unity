@@ -10946,11 +10946,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6242597041937984901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7703bf8bef9d699489c47bb25a167a6e, type: 3}
+  m_Script: {fileID: 11500000, guid: c53501d7da81da44aa64a10e4f585b42, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Lock
-  objectAnimator: {fileID: 0}
-  requiredKey: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::Main.Scripts.SafeInteract
+  keypadPrefab: {fileID: 2303921294396319335, guid: 2cf8072ebed1149479d25d30c324125c, type: 3}
+  spawnPoint: {fileID: 0}
+  objectAnimator: {fileID: 16041716}
+  openTrigger: Open
 --- !u!4 &7174720239197242478
 Transform:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Main.Scripts;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -42,6 +43,7 @@ namespace NavKeypad
         private string currentInput;
         private bool displayingResult = false;
         private bool accessWasGranted = false;
+        private SafeInteract safeInstance;
 
         private void Awake()
         {
@@ -70,6 +72,10 @@ namespace NavKeypad
                     break;
             }
 
+        }
+        public void Initialize(SafeInteract safe)
+        {
+            safeInstance = safe;
         }
         public void CheckCombo()
         {
@@ -125,6 +131,13 @@ namespace NavKeypad
             onAccessGranted?.Invoke();
             panelMesh.material.SetVector("_EmissionColor", screenGrantedColor * screenIntensity);
             audioSource.PlayOneShot(accessGrantedSfx);
+        }
+        public void CloseKeypad() 
+        {
+            if (safeInstance != null)
+            {
+                safeInstance.CloseKeypad();
+            }
         }
 
     }
