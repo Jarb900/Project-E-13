@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f267bff08afc7ea46bcfe7d655b3a19a
+guid: f6a50b8af342a3343b30013a8e720b1d
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -114,3 +114,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262151
+  packageName: Keypad FREE
+  packageVersion: 1.0.1
+  assetPath: Assets/Keypad/Models/KeypadMeshUrp.fbx
+  uploadId: 657263

@@ -7,54 +7,77 @@
     <list default="true" id="5cd135d3-3a42-4a14-8c0b-017c580e2f1a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-E-13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-E-13/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials/RGB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials/RGB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Fonts/Digits.TTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Fonts/Digits.TTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Fonts/DigitsFonts.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Fonts/DigitsFonts.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-doormetal-urp.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-doormetal-urp.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-pillarMaterial-urp.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-pillarMaterial-urp.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-wallm-urp.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/exampleScene-wallm-urp.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/keypad_buttonMaterial_urp.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/keypad_buttonMaterial_urp.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/keypad_panelmaterial_urp.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp/keypad_panelmaterial_urp.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Prefabs/Keypad.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Prefabs/Keypad.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/Keypad.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/Keypad.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/KeypadButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/KeypadButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/KeypadInteractionFPV.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/KeypadInteractionFPV.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadClick.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadClick.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadDeniedd.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadDeniedd.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadGranted.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds/sfx_keypadGranted.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_albedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_albedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_metallic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_metallic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Button_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_albedoo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_albedoo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_emissive2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_emissive2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_metallic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_metallic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_normale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_normale.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_roughness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures/Panel_roughness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/Animations/Fall.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Animations/Fall.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerInteraction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorClose.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorClose.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorOpen.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorOpen.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorSlide.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorSlide.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-doormetal-standard.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-doormetal-standard.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-floorMaterial-standard.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-floorMaterial-standard.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-pillarMaterial-standard.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-pillarMaterial-standard.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-wallMaterial-standard.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-wallMaterial-standard.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/keypad_buttonMaterial_standard.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/keypad_buttonMaterial_standard.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/keypad_panelmaterial_standard.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/keypad_panelmaterial_standard.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Models/KeypadMeshUrp.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Models/KeypadMeshUrp.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Models/KeypadMeshhStandard.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Models/KeypadMeshhStandard.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Prefabs/KeypadStandard.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Prefabs/KeypadStandard.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/ReadMe.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/ReadMe.rtf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/ExampleScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/ExampleScene/Keypad_DoorExampleScene_Standard.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/ExampleScene/Keypad_DoorExampleScene_Standard.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/ExampleScene/Keypad_DoorExampleScene_Urp.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/ExampleScene/Keypad_DoorExampleScene_Urp.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/KeypadSceneStandard.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/KeypadSceneStandard.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/KeypadSceneUrp.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/KeypadSceneUrp.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/SlidingDoor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/SlidingDoor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/material.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/material/m_lock_01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/material/m_lock_01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/mesh/sm_lock_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/mesh/sm_lock_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/prefab/prf_lock_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/prefab/prf_lock_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_ao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_ao.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_bc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_bc.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_m_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_m_s.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_n.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Models/KeypadMeshUrp.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Models/KeypadMeshUrp.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainScene.unity.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +90,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Main/Scripts/SafeInteract.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@1f4d88678591/Runtime/Debugging/DebugUI.Fields.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Time Ghost/Library/PackageCache/com.unity.render-pipelines.high-definition@3fd68b3df822/Runtime/Material/Lit/Lit.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -157,6 +181,7 @@
       <workItem from="1762343387450" duration="12308000" />
       <workItem from="1762972171710" duration="983000" />
       <workItem from="1763488457844" duration="2708000" />
+      <workItem from="1763554293657" duration="8739000" />
     </task>
     <servers />
   </component>
