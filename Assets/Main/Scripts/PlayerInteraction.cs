@@ -1,5 +1,4 @@
-﻿using ElmanGameDevTools.FirstPersonControllerPro.Scripts.PlayerSystem;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 namespace Main.Scripts

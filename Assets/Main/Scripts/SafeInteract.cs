@@ -1,4 +1,3 @@
-using ElmanGameDevTools.FirstPersonControllerPro.Scripts.PlayerSystem;
 using NavKeypad;
 using UnityEngine;
 

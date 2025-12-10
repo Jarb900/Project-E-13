@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace ElmanGameDevTools.FirstPersonControllerPro.Scripts.PlayerSystem
+namespace Main.Scripts
 {
-    [AddComponentMenu("Elman Game Dev Tools/Player System/Player Controller")]
+    [AddComponentMenu("Main/Scripts/Player Controller")]
     public class PlayerController : MonoBehaviour
     {
         private static readonly int Swing = Animator.StringToHash("Swing");
