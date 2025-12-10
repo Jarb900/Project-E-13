@@ -8,6 +8,7 @@ TagManager:
   - grass
   - metal
   - Interactable
+  - Door
   layers:
   - Default
   - TransparentFX

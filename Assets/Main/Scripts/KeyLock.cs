@@ -13,31 +13,23 @@ namespace Main.Scripts
         [Tooltip("The specific ItemData for the key that opens this lock.")]
         public ItemData requiredKey; // Drag your 'Key_Door' asset here
 
-        private bool isLocked = true;
+        public bool isOpen = false;
 
         // This is now called by PlayerInteraction
         // ReSharper disable Unity.PerformanceAnalysis
         public void TryUnlock(PlayerInventory inventory)
         {
-            if (!isLocked) return;
+            if (isOpen) return;
 
             // Check if the player's inventory list "Contains" our required key
             if (inventory.HasItem(requiredKey))
             {
-                Debug.Log("Key fits! Opening door.");
-                isLocked = false;
+                isOpen = true;
             
                 if (objectAnimator)
                 {
                     objectAnimator.SetTrigger(Open);
                 }
-
-                var col = GetComponent<Collider>();
-                if (col) col.enabled = false;
-            }
-            else
-            {
-                Debug.Log("This is locked. I need the " + requiredKey.itemName);
             }
         }
     }

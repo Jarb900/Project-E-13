@@ -93,6 +93,7 @@ namespace ElmanGameDevTools.FirstPersonControllerPro.Scripts.PlayerSystem
         private Vector3 velocity;
         private Vector3 cameraOriginalLocalPos;
         private Animator anim;
+        public LayerMask groundMask;
         private float cameraZVelocity;
         private int animStateLand;
         private float initialHeadY;
@@ -445,6 +446,37 @@ namespace ElmanGameDevTools.FirstPersonControllerPro.Scripts.PlayerSystem
             // Tell the Animator our current crouching state
             if (anim != null) anim.SetBool("IsCrouching", isCrouching);
         }
+        /// <summary>
+        /// Checks if player can stand up from crouching position
+        /// </summary>
+        private bool CanStandUp()
+        {
+            float radius = controller.radius;
+            float standHeight = originalHeight;
+
+            // Bottom of capsule
+            Vector3 bottom = transform.position + controller.center - Vector3.up * (controller.height / 2f - radius);
+
+            // Current crouched top
+            Vector3 crouchTop = bottom + Vector3.up * (controller.height - radius * 2f);
+
+            // Future standing top
+            Vector3 standTop = bottom + Vector3.up * (standHeight - radius * 2f);
+
+            float extraDistance = standTop.y - crouchTop.y;
+
+            // Capsule cast checks only the extra upper region
+            bool blocked = Physics.CapsuleCast(
+                point1: crouchTop,
+                point2: crouchTop,       // zero-length capsule (sphere)
+                radius: radius * 0.95f,  // slightly smaller to avoid precision issues
+                direction: Vector3.up,
+                maxDistance: extraDistance,
+                layerMask: groundMask     // you can change this mask if needed
+            );
+
+            return !blocked;
+        }
 
         /// <summary>
         /// Smoothly adjusts the controller height for crouching
@@ -557,27 +589,6 @@ namespace ElmanGameDevTools.FirstPersonControllerPro.Scripts.PlayerSystem
                     playerCamera.localPosition.z
                 );
             }
-        }
-
-        /// <summary>
-        /// Checks if player can stand up from crouching position
-        /// </summary>
-        private bool CanStandUp()
-        {
-            if (standingHeightMarker == null || !markerInitialized) return true;
-
-            Collider[] hits = Physics.OverlapSphere(standingHeightMarker.transform.position, standingCheckRadius, obstacleLayerMask);
-            foreach (Collider col in hits)
-            {
-                // Ignore self and children
-                if (col.transform == transform || col.transform == standingHeightMarker.transform || col.transform.IsChildOf(transform))
-                    continue;
-
-                // Check if obstacle is low enough to prevent standing
-                if (col.bounds.min.y < standingHeightMarker.transform.position.y + minStandingClearance)
-                    return false;
-            }
-            return true;
         }
 
         // Public API methods

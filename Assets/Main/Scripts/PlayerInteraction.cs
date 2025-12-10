@@ -1,4 +1,4 @@
-using ElmanGameDevTools.FirstPersonControllerPro.Scripts.PlayerSystem;
+﻿using ElmanGameDevTools.FirstPersonControllerPro.Scripts.PlayerSystem;
 using UnityEngine;
 using TMPro;
 
@@ -18,10 +18,12 @@ namespace Main.Scripts
         public GameObject Cursor; // Drag the Cursor Prefab here
         public GameObject LockedDoor;
         public GameObject UnlockDoor;
+        public ItemData requiredKey;
         private bool isUiVisible = false; // Internal flag
         private bool playerHasKey = false;
         private bool lookingAtDoor = false;
-        
+
+
         private void Start()
         {
             inventory = GetComponent<PlayerInventory>();
@@ -36,7 +38,9 @@ namespace Main.Scripts
             Ray ray = new Ray(playerCamera.position, playerCamera.forward);
             RaycastHit hit = new RaycastHit(); // Initialize hit to avoid local variable errors
             bool lookingAtInteractable = false;
-    
+            bool lookingAtDoor = false;
+
+            
             // Perform the raycast and ensure ALL logic that uses 'hit' is inside this block
             if (Physics.Raycast(ray, out hit, interactionDistance))
             {
@@ -45,16 +49,48 @@ namespace Main.Scripts
                 {
                     lookingAtInteractable = true;
                 }
+
+                if (hit.collider.CompareTag("Door"))
+                {
+                    lookingAtDoor = true;
+                }
             }
-    
+
             // --- 2. UI VISIBILITY LOGIC (Runs every frame, regardless of hit) ---
             if (lookingAtInteractable != isUiVisible)
-            {
-                interactionCanvas.SetActive(lookingAtInteractable);
-                Cursor.SetActive(!lookingAtInteractable);
-                isUiVisible = lookingAtInteractable;
+            { 
+                interactionCanvas.SetActive(lookingAtInteractable); 
+                Cursor.SetActive(!lookingAtInteractable); 
+                isUiVisible = lookingAtInteractable; 
             }
-    
+
+            if (lookingAtDoor)
+            {
+                // Try to read door's isOpen property
+                var door = hit.collider.GetComponent<KeyLock>(); // Replace 'Door' with your door script name
+
+                if (door != null && door.isOpen)
+                {
+                    // Door is already open → hide UI
+                    LockedDoor.SetActive(false);
+                    UnlockDoor.SetActive(false);
+                }
+                else
+                {
+                    // Door is closed → check for key
+                    playerHasKey = inventory.HasItem(requiredKey);
+
+                    LockedDoor.SetActive(!playerHasKey);
+                    UnlockDoor.SetActive(playerHasKey);
+                }
+            }
+            else
+            {
+                LockedDoor.SetActive(false);
+                UnlockDoor.SetActive(false);
+            }
+
+
             // --- 3. HANDLE KEY PRESS (ACTION LOGIC) ---
             // Guard clause 1: Stop if key is not pressed
             if (!Input.GetKeyDown(interactionKey)) return;
