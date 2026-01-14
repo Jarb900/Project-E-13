@@ -6,78 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5cd135d3-3a42-4a14-8c0b-017c580e2f1a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-E-13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-E-13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials/RGB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials/RGB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorClose.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorClose.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorOpen.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorOpen.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorSlide.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Animations/DoorSlide.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-doormetal-standard.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-doormetal-standard.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-floorMaterial-standard.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-floorMaterial-standard.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-pillarMaterial-standard.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-pillarMaterial-standard.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-wallMaterial-standard.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/exampleScene-wallMaterial-standard.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/keypad_buttonMaterial_standard.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/keypad_buttonMaterial_standard.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/keypad_panelmaterial_standard.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Standard/keypad_panelmaterial_standard.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Materials/Urp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Models/KeypadMeshUrp.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Models/KeypadMeshUrp.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Models/KeypadMeshhStandard.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Models/KeypadMeshhStandard.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Prefabs/KeypadStandard.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Prefabs/KeypadStandard.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/ReadMe.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/ReadMe.rtf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/ExampleScene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/ExampleScene/Keypad_DoorExampleScene_Standard.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/ExampleScene/Keypad_DoorExampleScene_Standard.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/ExampleScene/Keypad_DoorExampleScene_Urp.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/ExampleScene/Keypad_DoorExampleScene_Urp.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/KeypadSceneStandard.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/KeypadSceneStandard.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/KeypadSceneUrp.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scenes/KeypadSceneUrp.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/SlidingDoor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Scripts/SlidingDoor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Sounds.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Keypad/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/material.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/material/m_lock_01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/material/m_lock_01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/mesh/sm_lock_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/mesh/sm_lock_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/prefab/prf_lock_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/prefab/prf_lock_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_ao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_ao.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_bc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_bc.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_m_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_m_s.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LOCK/textures/m_lock_01_n.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/Models/KeypadMeshUrp.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Models/KeypadMeshUrp.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainExplosionMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainExplosionMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModeloVirtualBlender/VirtualRoomFinishFinal.blend" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,30 +32,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "Alex",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Standalone Player.Start Unity">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\Unity Hub\Editor\6000.2.10f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\jarb9\Documents\Project-E-13 -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\jarb9\Documents\Project-E-13" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
@@ -132,14 +63,12 @@
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\jarb9\Documents\Project-E-13 -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\jarb9\Documents\Project-E-13" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -150,10 +79,9 @@
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -164,10 +92,9 @@
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Device" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+    <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
       <method v="2" />
     </configuration>
   </component>
@@ -182,6 +109,7 @@
       <workItem from="1762972171710" duration="983000" />
       <workItem from="1763488457844" duration="2708000" />
       <workItem from="1763554293657" duration="8739000" />
+      <workItem from="1768333159814" duration="5086000" />
     </task>
     <servers />
   </component>
