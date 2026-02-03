@@ -30,10 +30,13 @@ namespace Main.Scripts
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
 
-            // 3. Spawn Keypad - SIMPLIFIED
-            // We let Unity handle the screen placement since it's an Overlay Canvas
-            currentKeypad = Instantiate(keypadPrefab);
-        
+            // 3. Spawn Keypad 
+            Transform cam = Camera.main.transform;
+            Vector3 spawnPos = cam.position + cam.forward * 0.5f;
+            Quaternion spawnRot = Quaternion.LookRotation(cam.forward);
+
+            currentKeypad = Instantiate(keypadPrefab, spawnPos, spawnRot);
+
             // 4. Setup Keypad
             Keypad keypadScript = currentKeypad.GetComponent<Keypad>();
             keypadScript.Initialize(this); 

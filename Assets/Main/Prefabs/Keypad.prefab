@@ -564,7 +564,7 @@ Transform:
   m_GameObject: {fileID: 2303921293582486212}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.0065, y: -0.0019, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -717,7 +717,7 @@ MonoBehaviour:
   onAccessDenied:
     m_PersistentCalls:
       m_Calls: []
-  keypadCombo: 5567
+  keypadCombo: 1234
   accessGrantedText: Granted
   accessDeniedText: Denied
   displayResultTime: 1
