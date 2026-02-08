@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Free Wood Door Pack/Mesh/Knob_2.FBX.meta
 guid: 8fb3d1c2ac3340f468df743c47190f44
 timeCreated: 1499242328
+========
+guid: bcf2f716d78860f45ba4cda490856ec0
+timeCreated: 1499242804
+>>>>>>>> Stashed changes:Assets/Free Wood Door Pack/Mesh/Knob_3.FBX.meta
 licenseType: Store
 ModelImporter:
   serializedVersion: 19
@@ -85,5 +90,9 @@ AssetOrigin:
   productId: 280509
   packageName: Free Wood Door Pack
   packageVersion: 1.0
+<<<<<<<< Updated upstream:Assets/Free Wood Door Pack/Mesh/Knob_2.FBX.meta
   assetPath: Assets/Free Wood Door Pack/Mesh/Knob_2.FBX
+========
+  assetPath: Assets/Free Wood Door Pack/Mesh/Knob_3.FBX
+>>>>>>>> Stashed changes:Assets/Free Wood Door Pack/Mesh/Knob_3.FBX.meta
   uploadId: 658197

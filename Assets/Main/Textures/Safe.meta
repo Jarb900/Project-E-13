@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Main/Textures/Safe.meta
 guid: b4d1171786dea234cacaf0a57f91759d
+========
+guid: a29561c617a55244589fa59040894de0
+>>>>>>>> Stashed changes:Assets/Realistic Concrete Texture.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,12 +1,16 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Main/Textures/Poliigon_ConcreteWorn_8690_Roughness.jpg.meta
 guid: 4eb5ba731bdaa5e45b55e00d685eefb4
+========
+guid: 1b7ad70b319c5414a8b7b1a614039a61
+>>>>>>>> Stashed changes:Assets/Realistic Concrete Texture/Texture/Tile_10_AO.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -289069567377253960
     second: Poliigon_ConcreteWorn_8690_Roughness_0
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,12 +27,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -40,10 +43,17 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
+<<<<<<<< Updated upstream:Assets/Main/Textures/Poliigon_ConcreteWorn_8690_Roughness.jpg.meta
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
+========
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+>>>>>>>> Stashed changes:Assets/Realistic Concrete Texture/Texture/Tile_10_AO.png.meta
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
@@ -67,10 +77,13 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<<< Updated upstream:Assets/Main/Textures/Poliigon_ConcreteWorn_8690_Roughness.jpg.meta
   swizzle: 50462976
+========
+>>>>>>>> Stashed changes:Assets/Realistic Concrete Texture/Texture/Tile_10_AO.png.meta
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 4
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,10 +93,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,11 +105,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -106,7 +117,30 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -135,7 +169,6 @@ TextureImporter:
       edges: []
       weights: []
     outline: []
-    customData: 
     physicsShape: []
     bones: []
     spriteID: 
@@ -145,12 +178,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<<< Updated upstream:Assets/Main/Textures/Poliigon_ConcreteWorn_8690_Roughness.jpg.meta
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
       Poliigon_ConcreteWorn_8690_Roughness_0: -289069567377253960
   mipmapLimitGroupName: 
+========
+    nameFileIdTable: {}
+  spritePackingTag: 
+>>>>>>>> Stashed changes:Assets/Realistic Concrete Texture/Texture/Tile_10_AO.png.meta
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<<< Updated upstream:Assets/Main/Textures/Poliigon_ConcreteWorn_8690_Roughness.jpg.meta
+========
+AssetOrigin:
+  serializedVersion: 1
+  productId: 305716
+  packageName: Realistic Concrete Texture
+  packageVersion: 1.0
+  assetPath: Assets/Realistic Concrete Texture/Texture/Tile_10_AO.png
+  uploadId: 718478
+>>>>>>>> Stashed changes:Assets/Realistic Concrete Texture/Texture/Tile_10_AO.png.meta

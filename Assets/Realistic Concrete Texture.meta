@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Realistic Concrete Texture.meta
 guid: a29561c617a55244589fa59040894de0
+========
+guid: 3a0c5ba694329894e806ceb0cd3d157a
+>>>>>>>> Stashed changes:Assets/Realistic Concrete Texture/Scene.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

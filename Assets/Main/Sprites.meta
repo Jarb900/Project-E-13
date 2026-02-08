@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Main/Sprites.meta
 guid: 03e7e48bc625199428638fd8e4b4614d
+========
+guid: b4d1171786dea234cacaf0a57f91759d
+>>>>>>>> Stashed changes:Assets/Main/Textures/Safe.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
