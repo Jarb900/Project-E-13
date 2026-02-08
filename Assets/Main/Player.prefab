@@ -3427,6 +3427,9 @@ MonoBehaviour:
   minStandingClearance: 0.01
   standCheckCooldown: 0.1
   headBone: {fileID: 0}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!143 &2173668204515810197
 CharacterController:
   m_ObjectHideFlags: 0
@@ -3467,6 +3470,11 @@ MonoBehaviour:
   interactionDistance: 3
   interactionKey: 101
   playerCamera: {fileID: 7858034902710621690}
+  interactionCanvas: {fileID: 0}
+  Cursor: {fileID: 0}
+  LockedDoor: {fileID: 0}
+  UnlockDoor: {fileID: 0}
+  requiredKey: {fileID: 0}
 --- !u!114 &2396055010667151307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3480,6 +3488,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Main.Scripts.PlayerInventory
   equipSlot: {fileID: 0}
+  anim: {fileID: 0}
+  preAttachedItems: []
   items: []
 --- !u!1 &9104935884597333338
 GameObject:
