@@ -15,13 +15,21 @@ namespace Main.Scripts
         [Header("UI Feedback")] // <-- NEW SECTION
         public GameObject interactionCanvas; // Drag the Canvas_Interaction here
         public GameObject Cursor; // Drag the Cursor Prefab here
+
+        [Header("Door UI")]
         public GameObject LockedDoor;
         public GameObject UnlockDoor;
         public ItemData requiredKey;
+
+        [Header("Fuse Box UI")] // <--- NEW VARIABLES
+        public GameObject FuseOpenUI; // Drag your "Press E to Open" text here
+        public GameObject FuseFlipUI; // Drag your "Press E to Flip Switch" text here
+
+        [Header("Projector UI")] // <--- NEW VARIABLES
+        public GameObject ProjectorUI; // Drag your "Press E to Open" text here
+
         private bool isUiVisible = false; // Internal flag
         private bool playerHasKey = false;
-        private bool lookingAtDoor = false;
-
 
         private void Start()
         {
@@ -36,13 +44,17 @@ namespace Main.Scripts
             // Create and draw the ray
             Ray ray = new Ray(playerCamera.position, playerCamera.forward);
             RaycastHit hit = new RaycastHit(); // Initialize hit to avoid local variable errors
+
             bool lookingAtInteractable = false;
             bool lookingAtDoor = false;
+            bool lookingAtProjector = false;
+            FuseBoxPart currentFusePart = null;
+            ProjectorLogic currentProjector = null;
 
-            
             // Perform the raycast and ensure ALL logic that uses 'hit' is inside this block
             if (Physics.Raycast(ray, out hit, interactionDistance))
             {
+                Debug.Log("I hit: " + hit.collider.name);
                 // Check if the object we hit is tagged 'Interactable' for UI feedback
                 if (hit.collider.CompareTag("Interactable")) 
                 {
@@ -53,6 +65,13 @@ namespace Main.Scripts
                 {
                     lookingAtDoor = true;
                 }
+
+                if (hit.collider.CompareTag("Projector"))
+                {
+                    lookingAtProjector = true;
+                }
+                currentFusePart = hit.collider.GetComponent<FuseBoxPart>();
+                currentProjector = hit.collider.GetComponent<ProjectorLogic>();
             }
 
             // --- 2. UI VISIBILITY LOGIC (Runs every frame, regardless of hit) ---
@@ -66,7 +85,7 @@ namespace Main.Scripts
             if (lookingAtDoor)
             {
                 // Try to read door's isOpen property
-                var door = hit.collider.GetComponent<KeyLock>(); // Replace 'Door' with your door script name
+                var door = hit.collider.GetComponent<KeyLock>();
 
                 if (door != null && door.isOpen)
                 {
@@ -89,6 +108,43 @@ namespace Main.Scripts
                 UnlockDoor.SetActive(false);
             }
 
+            // Fuse Box UI Logic
+            if (currentFusePart != null)
+            {
+                // CASE 1: Looking at the Door
+                if (currentFusePart.triggerName == "TrigOpen")
+                {
+                    // Show "Open UI" only if door is CLOSED
+                    FuseOpenUI.SetActive(!currentFusePart.isDoorOpen);
+                    FuseFlipUI.SetActive(false);
+                }
+                // CASE 2: Looking at the Switch
+                else if (currentFusePart.triggerName == "TrigSwitch")
+                {
+                    // Show "Flip UI" only if NOT used yet
+                    FuseFlipUI.SetActive(!currentFusePart.SwitchHasBeenUsed);
+                    FuseOpenUI.SetActive(false);
+                }
+            }
+            else
+            {
+                // We aren't looking at any fuse part, hide both
+                FuseOpenUI.SetActive(false);
+                FuseFlipUI.SetActive(false);
+            }
+
+            // Projector UI Logic
+            if (currentProjector != null)
+            {
+                ProjectorUI.SetActive(!currentProjector.isOn);
+            }
+            else
+            {
+                // Turns off Projector UI
+                ProjectorUI.SetActive(false);
+
+            }
+      
 
             // --- 3. HANDLE KEY PRESS (ACTION LOGIC) ---
             // Guard clause 1: Stop if key is not pressed
@@ -105,6 +161,22 @@ namespace Main.Scripts
             if (safe != null)
             {
                 safe.ShowKeypad(GetComponent<PlayerController>());
+                return;
+            }
+
+            // [NEW] Check for Fuse Box parts (Switch or Door)
+            var fusePart = hit.collider.GetComponent<FuseBoxPart>();
+            if (fusePart != null)
+            {
+                fusePart.Interact();
+                return;
+            }
+
+            // Check for Projector
+            var projector = hit.collider.GetComponent<ProjectorLogic>();
+            if (projector != null)
+            {
+                projector.Toggle();
                 return;
             }
 
