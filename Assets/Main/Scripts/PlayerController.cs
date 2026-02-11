@@ -406,7 +406,10 @@ namespace Main.Scripts
             // Crouch key pressed
             if (Input.GetKeyDown(crouchKey))
             {
-                isCrouchKeyHeld = true;
+                if (isCrouching)
+                {
+                    wantsToStand = true;
+                }
                 if (!isCrouching)
                 {
                     isCrouching = true;
@@ -416,32 +419,24 @@ namespace Main.Scripts
                 }
             }
 
-            // Crouch key released
-            if (Input.GetKeyUp(crouchKey))
-            {
-                isCrouchKeyHeld = false;
-                if (isCrouching) wantsToStand = true;
-
-                // Resetting the trigger is still a good idea
-                if (anim != null) anim.ResetTrigger("Land");
-            }
 
             // Attempt to stand up
-            if (wantsToStand && !isCrouchKeyHeld && Time.time - lastStandCheckTime > standCheckCooldown)
+            if (wantsToStand)
             {
-                lastStandCheckTime = Time.time;
-                if (CanStandUp())
+                if (Time.time - lastStandCheckTime > standCheckCooldown)
                 {
-                    isCrouching = false;
-                    targetHeight = originalHeight;
-                    wantsToStand = false;
+                    lastStandCheckTime = Time.time;
 
-                    // (The 'lastStandUpTime = Time.time;' line is now GONE from here)
+                    if (CanStandUp())
+                    {
+                        isCrouching = false;
+                        targetHeight = originalHeight;
+                        wantsToStand = false;
+                    }
+
                 }
+                
             }
-
-            // Prevent standing if crouch key is held
-            if (isCrouching && isCrouchKeyHeld) wantsToStand = false;
 
             // Tell the Animator our current crouching state
             if (anim != null) anim.SetBool("IsCrouching", isCrouching);

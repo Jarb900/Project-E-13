@@ -8,6 +8,9 @@ namespace Main.Scripts
         [Header("Keypad Settings")] public GameObject keypadPrefab; // Drag your Keypad Prefab here
         public Transform spawnPoint; // Where the keypad appears (optional, or use screen space)
 
+        [Header("UI Settings")] // <--- NEW SECTION
+        public GameObject playerCanvas; // Drag your Main Canvas/HUD here
+
         [Header("Safe Settings")] public Animator objectAnimator; // The Hinge Animator
         public string openTrigger = "Open";
 
@@ -25,6 +28,8 @@ namespace Main.Scripts
             // 1. Disable Player Movement & Camera
             playerController = controller;
             playerController.enabled = false;
+
+            if (playerCanvas) playerCanvas.SetActive(false);
 
             // 2. Show Mouse Cursor
             Cursor.lockState = CursorLockMode.None;
@@ -91,7 +96,10 @@ namespace Main.Scripts
             // 1. Destroy Keypad UI
             if (currentKeypad != null) Destroy(currentKeypad);
 
-            // 2. Re-enable Player
+            // 2. Show the Player HUD again
+            if (playerCanvas) playerCanvas.SetActive(true);
+
+            // 3. Re-enable Player
             if (playerController != null)
             {
                 playerController.enabled = true;

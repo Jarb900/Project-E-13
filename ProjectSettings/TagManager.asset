@@ -10,6 +10,7 @@ TagManager:
   - Interactable
   - Door
   - Projector
+  - SafeInteract
   layers:
   - Default
   - TransparentFX

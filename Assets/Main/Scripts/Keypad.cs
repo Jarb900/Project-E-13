@@ -63,7 +63,7 @@ namespace NavKeypad
                     CheckCombo();
                     break;
                 default:
-                    if (currentInput != null && currentInput.Length == 9) // 9 max passcode size 
+                    if (currentInput != null && currentInput.Length == 7) // 7 max passcode size 
                     {
                         return;
                     }
