@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b970559be8d4f5d8e19f38e0b41ec03, type: 3}
   m_Name: Axe
   m_EditorClassIdentifier: Assembly-CSharp::Main.Scripts.ItemData
-  itemName: New Item
+  itemName: fireaxe
   itemIcon: {fileID: 0}
   equipPrefab: {fileID: 0}
   itemType: 0
