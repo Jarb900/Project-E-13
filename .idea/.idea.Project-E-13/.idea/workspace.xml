@@ -7,19 +7,8 @@
     <list default="true" id="5cd135d3-3a42-4a14-8c0b-017c580e2f1a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-E-13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-E-13/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Main/Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Bedroom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/EndingCutscene.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/EndingCutscene.playable" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Main/Fonts/Thesignature SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Fonts/Thesignature SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/MainSceneFinal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/MainSceneFinal.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/Keypad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/Keypad.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerInteraction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lilToon/Editor/lilInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lilToon/Editor/lilInspector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lilToon/Editor/lilMaterialProperty.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lilToon/Editor/lilMaterialProperty.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lilToon/Editor/lilToonEditorUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lilToon/Editor/lilToonEditorUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/ScrollCredits.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/ScrollCredits.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +116,7 @@
       <workItem from="1768333159814" duration="5086000" />
       <workItem from="1773052450651" duration="433000" />
       <workItem from="1773052912303" duration="4139000" />
+      <workItem from="1773068416935" duration="1499000" />
     </task>
     <servers />
   </component>
