@@ -71,7 +71,7 @@ namespace Main.Scripts
             // Perform the raycast and ensure ALL logic that uses 'hit' is inside this block
             if (Physics.Raycast(ray, out hit, interactionDistance))
             {
-                Debug.Log("I hit: " + hit.collider.name);
+                //Debug.Log("I hit: " + hit.collider.name);
                 // Check if the object we hit is tagged 'Interactable' for UI feedback
                 if (hit.collider.CompareTag("Interactable")) 
                 {

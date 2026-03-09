@@ -6,10 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="5cd135d3-3a42-4a14-8c0b-017c580e2f1a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-E-13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-E-13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainExplosionMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainExplosionMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModeloVirtualBlender/VirtualRoomFinishFinal.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Bedroom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/EndingCutscene.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/EndingCutscene.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Fonts/Thesignature SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Fonts/Thesignature SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/MainSceneFinal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/MainSceneFinal.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/Keypad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/Keypad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Scripts/PlayerInteraction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lilToon/Editor/lilInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lilToon/Editor/lilInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lilToon/Editor/lilMaterialProperty.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lilToon/Editor/lilMaterialProperty.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lilToon/Editor/lilToonEditorUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lilToon/Editor/lilToonEditorUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +34,10 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@1f4d88678591/Runtime/Debugging/DebugUI.Fields.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Time Ghost/Library/PackageCache/com.unity.render-pipelines.high-definition@3fd68b3df822/Runtime/Material/Lit/Lit.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -32,21 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "Alex",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Stable&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Standalone Player.Start Unity">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\Unity Hub\Editor\6000.2.10f1\Editor\Unity.exe" />
@@ -110,6 +125,8 @@
       <workItem from="1763488457844" duration="2708000" />
       <workItem from="1763554293657" duration="8739000" />
       <workItem from="1768333159814" duration="5086000" />
+      <workItem from="1773052450651" duration="433000" />
+      <workItem from="1773052912303" duration="4139000" />
     </task>
     <servers />
   </component>

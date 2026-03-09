@@ -208,7 +208,6 @@ namespace Main.Scripts
             {
                 if (anim != null)
                 {
-                    Debug.Log("Swing Trigger Fired!");
                     anim.SetTrigger(Swing);
                 }
                 else
